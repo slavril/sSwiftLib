@@ -167,6 +167,21 @@ extension String {
         return formatNumberWith(matrix: [4, 4, 4, 4])
     }
     
+    func toJson() -> [String:Any]? {
+        let data = self.data(using: .utf8)!
+        do {
+            if let jsonArray = try JSONSerialization.jsonObject(with: data, options : .allowFragments) as? [String:Any] {
+                return jsonArray
+            } else {
+                sysPrint("bad json")
+                return nil
+            }
+        } catch let error as NSError {
+            sysPrint(error.description)
+            return nil
+        }
+    }
+    
     func escape() -> String {
         let generalDelimitersToEncode = ":#[]@" // does not include "?" or "/" due to RFC 3986 - Section 3.4
         let subDelimitersToEncode = "!$&'()*+,;="

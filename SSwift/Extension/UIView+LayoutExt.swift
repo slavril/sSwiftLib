@@ -20,9 +20,9 @@ extension UIView {
     }
     
     // updated version of setDefaultStyle
-    func drawCornerView() {
+    func drawCornerView(radius: CGFloat) {
         self.clipsToBounds = true
-        self.layer.cornerRadius = 4
+        self.layer.cornerRadius = radius
     }
     
     func dropButtonSearchShadow() {
