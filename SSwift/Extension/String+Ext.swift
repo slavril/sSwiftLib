@@ -167,32 +167,6 @@ extension String {
         return formatNumberWith(matrix: [4, 4, 4, 4])
     }
     
-    func sha1() -> String {
-        let data = self.data(using: String.Encoding.utf8)!
-        var digest = [UInt8](repeating: 0, count:Int(CC_SHA1_DIGEST_LENGTH))
-        data.withUnsafeBytes {
-            _ = CC_SHA1($0, CC_LONG(data.count), &digest)
-        }
-        
-        let hexBytes = digest.map { String(format: "%02hhx", $0) }
-        return hexBytes.joined()
-    }
-    
-    func toJson() -> [String:Any]? {
-        let data = self.data(using: .utf8)!
-        do {
-            if let jsonArray = try JSONSerialization.jsonObject(with: data, options : .allowFragments) as? [String:Any] {
-                return jsonArray
-            } else {
-                sysPrint("bad json")
-                return nil
-            }
-        } catch let error as NSError {
-            sysPrint(error.description)
-            return nil
-        }
-    }
-    
     func escape() -> String {
         let generalDelimitersToEncode = ":#[]@" // does not include "?" or "/" due to RFC 3986 - Section 3.4
         let subDelimitersToEncode = "!$&'()*+,;="

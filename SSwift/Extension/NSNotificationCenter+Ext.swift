@@ -8,6 +8,20 @@
 
 import UIKit
 
+enum NotificationCenterKey: String {
+    case apnsReceived = "PushNotificationReceivedKey"
+    case storePayLater = "StorePayLaterKey"
+    case storePayNow = "StorePayNowKey"
+    case virtualCardDeactivate = "virtualCardDeactivateKey"
+    case needUpdateStoreLocation = "needUpdateStoreLocationKey"
+    case appBecomeActive = "appBecomeActiveKey"
+    case appWillForeground = "appWillForegroundKey"
+    case updateAccount = "updatedUserProfileKey"
+    case appTimeOut = "appTimeOut"
+    case paymentSuccess = "paymentSuccess"
+    case updatedPaymentMethods = "updatedPaymentMethods"
+}
+
 extension NotificationCenter {
     
     static func addObserver(_ observer: Any, selector aSelector: Selector, key: NotificationCenterKey) {
@@ -24,7 +38,6 @@ extension NotificationCenter {
     }
     
     static func postNotification(key: NotificationCenterKey, object anObject:Any?) {
-        sysPrint(">>>post notification: \(key)")
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: key.rawValue), object: anObject)
     }
     

@@ -15,11 +15,10 @@
 		FD0CD424215A213A00FD12D5 /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD40A215A213A00FD12D5 /* Data+Ext.swift */; };
 		FD0CD425215A213A00FD12D5 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD40B215A213A00FD12D5 /* Date+Ext.swift */; };
 		FD0CD426215A213A00FD12D5 /* Dictionary+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD40C215A213A00FD12D5 /* Dictionary+Ext.swift */; };
-		FD0CD427215A213A00FD12D5 /* Float+FinstroPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD40D215A213A00FD12D5 /* Float+FinstroPay.swift */; };
+		FD0CD427215A213A00FD12D5 /* Float+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD40D215A213A00FD12D5 /* Float+Ext.swift */; };
 		FD0CD428215A213A00FD12D5 /* NSAttributedString+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD40E215A213A00FD12D5 /* NSAttributedString+Ext.swift */; };
 		FD0CD429215A213A00FD12D5 /* NSNotificationCenter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD40F215A213A00FD12D5 /* NSNotificationCenter+Ext.swift */; };
 		FD0CD42A215A213A00FD12D5 /* NSObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD410215A213A00FD12D5 /* NSObject+Ext.swift */; };
-		FD0CD42B215A213A00FD12D5 /* String+CrytorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD411215A213A00FD12D5 /* String+CrytorExt.swift */; };
 		FD0CD42C215A213A00FD12D5 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD412215A213A00FD12D5 /* String+Ext.swift */; };
 		FD0CD42D215A213A00FD12D5 /* String+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD413215A213A00FD12D5 /* String+Localize.swift */; };
 		FD0CD42E215A213A00FD12D5 /* Timer+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD414215A213A00FD12D5 /* Timer+Ext.swift */; };
@@ -27,11 +26,9 @@
 		FD0CD430215A213A00FD12D5 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD416215A213A00FD12D5 /* UIButton+Ext.swift */; };
 		FD0CD431215A213A00FD12D5 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD417215A213A00FD12D5 /* UIColor+Ext.swift */; };
 		FD0CD432215A213A00FD12D5 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD418215A213A00FD12D5 /* UIImage+Ext.swift */; };
-		FD0CD433215A213A00FD12D5 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD419215A213A00FD12D5 /* UIImage.swift */; };
 		FD0CD434215A213A00FD12D5 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD41A215A213A00FD12D5 /* UIImageView+Ext.swift */; };
 		FD0CD435215A213A00FD12D5 /* UILabel+LayoutExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD41B215A213A00FD12D5 /* UILabel+LayoutExt.swift */; };
 		FD0CD436215A213A00FD12D5 /* UIStoryboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD41C215A213A00FD12D5 /* UIStoryboard+Ext.swift */; };
-		FD0CD437215A213A00FD12D5 /* UIStoryboard+FinstroPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD41D215A213A00FD12D5 /* UIStoryboard+FinstroPay.swift */; };
 		FD0CD438215A213A00FD12D5 /* UITabbar+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD41E215A213A00FD12D5 /* UITabbar+Ext.swift */; };
 		FD0CD439215A213A00FD12D5 /* UIView+Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD41F215A213A00FD12D5 /* UIView+Effect.swift */; };
 		FD0CD43A215A213A00FD12D5 /* UIView+FontExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD420215A213A00FD12D5 /* UIView+FontExt.swift */; };
@@ -51,11 +48,10 @@
 		FD0CD40A215A213A00FD12D5 /* Data+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD40B215A213A00FD12D5 /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD40C215A213A00FD12D5 /* Dictionary+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Ext.swift"; sourceTree = "<group>"; };
-		FD0CD40D215A213A00FD12D5 /* Float+FinstroPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+FinstroPay.swift"; sourceTree = "<group>"; };
+		FD0CD40D215A213A00FD12D5 /* Float+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD40E215A213A00FD12D5 /* NSAttributedString+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD40F215A213A00FD12D5 /* NSNotificationCenter+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotificationCenter+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD410215A213A00FD12D5 /* NSObject+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Ext.swift"; sourceTree = "<group>"; };
-		FD0CD411215A213A00FD12D5 /* String+CrytorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CrytorExt.swift"; sourceTree = "<group>"; };
 		FD0CD412215A213A00FD12D5 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD413215A213A00FD12D5 /* String+Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localize.swift"; sourceTree = "<group>"; };
 		FD0CD414215A213A00FD12D5 /* Timer+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+Ext.swift"; sourceTree = "<group>"; };
@@ -63,11 +59,9 @@
 		FD0CD416215A213A00FD12D5 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD417215A213A00FD12D5 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD418215A213A00FD12D5 /* UIImage+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
-		FD0CD419215A213A00FD12D5 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		FD0CD41A215A213A00FD12D5 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD41B215A213A00FD12D5 /* UILabel+LayoutExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+LayoutExt.swift"; sourceTree = "<group>"; };
 		FD0CD41C215A213A00FD12D5 /* UIStoryboard+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Ext.swift"; sourceTree = "<group>"; };
-		FD0CD41D215A213A00FD12D5 /* UIStoryboard+FinstroPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+FinstroPay.swift"; sourceTree = "<group>"; };
 		FD0CD41E215A213A00FD12D5 /* UITabbar+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabbar+Ext.swift"; sourceTree = "<group>"; };
 		FD0CD41F215A213A00FD12D5 /* UIView+Effect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Effect.swift"; sourceTree = "<group>"; };
 		FD0CD420215A213A00FD12D5 /* UIView+FontExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FontExt.swift"; sourceTree = "<group>"; };
@@ -123,11 +117,10 @@
 				FD0CD40A215A213A00FD12D5 /* Data+Ext.swift */,
 				FD0CD40B215A213A00FD12D5 /* Date+Ext.swift */,
 				FD0CD40C215A213A00FD12D5 /* Dictionary+Ext.swift */,
-				FD0CD40D215A213A00FD12D5 /* Float+FinstroPay.swift */,
+				FD0CD40D215A213A00FD12D5 /* Float+Ext.swift */,
 				FD0CD40E215A213A00FD12D5 /* NSAttributedString+Ext.swift */,
 				FD0CD40F215A213A00FD12D5 /* NSNotificationCenter+Ext.swift */,
 				FD0CD410215A213A00FD12D5 /* NSObject+Ext.swift */,
-				FD0CD411215A213A00FD12D5 /* String+CrytorExt.swift */,
 				FD0CD412215A213A00FD12D5 /* String+Ext.swift */,
 				FD0CD413215A213A00FD12D5 /* String+Localize.swift */,
 				FD0CD414215A213A00FD12D5 /* Timer+Ext.swift */,
@@ -135,11 +128,9 @@
 				FD0CD416215A213A00FD12D5 /* UIButton+Ext.swift */,
 				FD0CD417215A213A00FD12D5 /* UIColor+Ext.swift */,
 				FD0CD418215A213A00FD12D5 /* UIImage+Ext.swift */,
-				FD0CD419215A213A00FD12D5 /* UIImage.swift */,
 				FD0CD41A215A213A00FD12D5 /* UIImageView+Ext.swift */,
 				FD0CD41B215A213A00FD12D5 /* UILabel+LayoutExt.swift */,
 				FD0CD41C215A213A00FD12D5 /* UIStoryboard+Ext.swift */,
-				FD0CD41D215A213A00FD12D5 /* UIStoryboard+FinstroPay.swift */,
 				FD0CD41E215A213A00FD12D5 /* UITabbar+Ext.swift */,
 				FD0CD41F215A213A00FD12D5 /* UIView+Effect.swift */,
 				FD0CD420215A213A00FD12D5 /* UIView+FontExt.swift */,
@@ -222,17 +213,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0CD424215A213A00FD12D5 /* Data+Ext.swift in Sources */,
-				FD0CD42B215A213A00FD12D5 /* String+CrytorExt.swift in Sources */,
 				FD0CD438215A213A00FD12D5 /* UITabbar+Ext.swift in Sources */,
 				FD0CD43D215A213A00FD12D5 /* URL+Ext.swift in Sources */,
 				FD0CD432215A213A00FD12D5 /* UIImage+Ext.swift in Sources */,
-				FD0CD427215A213A00FD12D5 /* Float+FinstroPay.swift in Sources */,
+				FD0CD427215A213A00FD12D5 /* Float+Ext.swift in Sources */,
 				FD0CD434215A213A00FD12D5 /* UIImageView+Ext.swift in Sources */,
 				FD0CD3FA215A211000FD12D5 /* ViewController.swift in Sources */,
 				FD0CD428215A213A00FD12D5 /* NSAttributedString+Ext.swift in Sources */,
 				FD0CD431215A213A00FD12D5 /* UIColor+Ext.swift in Sources */,
 				FD0CD430215A213A00FD12D5 /* UIButton+Ext.swift in Sources */,
-				FD0CD437215A213A00FD12D5 /* UIStoryboard+FinstroPay.swift in Sources */,
 				FD0CD42D215A213A00FD12D5 /* String+Localize.swift in Sources */,
 				FD0CD43B215A213A00FD12D5 /* UIView+LayoutExt.swift in Sources */,
 				FD0CD435215A213A00FD12D5 /* UILabel+LayoutExt.swift in Sources */,
@@ -245,7 +234,6 @@
 				FD0CD42F215A213A00FD12D5 /* UIApplication+Ext.swift in Sources */,
 				FD0CD425215A213A00FD12D5 /* Date+Ext.swift in Sources */,
 				FD0CD436215A213A00FD12D5 /* UIStoryboard+Ext.swift in Sources */,
-				FD0CD433215A213A00FD12D5 /* UIImage.swift in Sources */,
 				FD0CD42A215A213A00FD12D5 /* NSObject+Ext.swift in Sources */,
 				FD0CD42C215A213A00FD12D5 /* String+Ext.swift in Sources */,
 				FD0CD43A215A213A00FD12D5 /* UIView+FontExt.swift in Sources */,

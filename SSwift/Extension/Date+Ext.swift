@@ -23,14 +23,6 @@ extension Date {
         return calendar
     }
     
-    static func toDate(date: String!, format: Enum.dateFormat) -> Date {
-        return toDate(date: date, format: format.rawValue)
-    }
-    
-    func toString(format: Enum.dateFormat) -> String {
-        return toString(format: format.rawValue)
-    }
-    
     func toString(format: String) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = format

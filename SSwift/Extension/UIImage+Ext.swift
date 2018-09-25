@@ -30,10 +30,6 @@ extension UIImage {
         return image!
     }
     
-    func imageMaskedWith(color: Constant.color) -> UIImage {
-        return imageMaskedWith(color: color)
-    }
-    
     func imageMaskedWith(color: UIColor) -> UIImage {
         let rect = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height)
         var image: UIImage?
