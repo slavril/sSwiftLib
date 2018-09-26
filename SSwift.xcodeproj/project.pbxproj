@@ -35,6 +35,9 @@
 		FD0CD43B215A213A00FD12D5 /* UIView+LayoutExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD421215A213A00FD12D5 /* UIView+LayoutExt.swift */; };
 		FD0CD43C215A213A00FD12D5 /* UIView+Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD422215A213A00FD12D5 /* UIView+Spring.swift */; };
 		FD0CD43D215A213A00FD12D5 /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CD423215A213A00FD12D5 /* URL+Ext.swift */; };
+		FD1F52A8215B704F00967448 /* CountingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1F52A5215B704E00967448 /* CountingTimer.swift */; };
+		FD1F52A9215B704F00967448 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1F52A6215B704E00967448 /* KeychainPasswordItem.swift */; };
+		FD1F52AA215B704F00967448 /* SAuthenUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1F52A7215B704E00967448 /* SAuthenUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		FD0CD421215A213A00FD12D5 /* UIView+LayoutExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutExt.swift"; sourceTree = "<group>"; };
 		FD0CD422215A213A00FD12D5 /* UIView+Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Spring.swift"; sourceTree = "<group>"; };
 		FD0CD423215A213A00FD12D5 /* URL+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Ext.swift"; sourceTree = "<group>"; };
+		FD1F52A5215B704E00967448 /* CountingTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingTimer.swift; sourceTree = "<group>"; };
+		FD1F52A6215B704E00967448 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		FD1F52A7215B704E00967448 /* SAuthenUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAuthenUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				FD0CD3FE215A211900FD12D5 /* Assets.xcassets */,
 				FD0CD400215A211900FD12D5 /* LaunchScreen.storyboard */,
 				FD0CD403215A211900FD12D5 /* Info.plist */,
+				FD1F52A4215B704E00967448 /* Utilities */,
 				FD0CD409215A213A00FD12D5 /* Extension */,
 			);
 			path = SSwift;
@@ -139,6 +146,16 @@
 				FD0CD423215A213A00FD12D5 /* URL+Ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		FD1F52A4215B704E00967448 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FD1F52A5215B704E00967448 /* CountingTimer.swift */,
+				FD1F52A6215B704E00967448 /* KeychainPasswordItem.swift */,
+				FD1F52A7215B704E00967448 /* SAuthenUtility.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,12 +233,14 @@
 				FD0CD438215A213A00FD12D5 /* UITabbar+Ext.swift in Sources */,
 				FD0CD43D215A213A00FD12D5 /* URL+Ext.swift in Sources */,
 				FD0CD432215A213A00FD12D5 /* UIImage+Ext.swift in Sources */,
+				FD1F52A8215B704F00967448 /* CountingTimer.swift in Sources */,
 				FD0CD427215A213A00FD12D5 /* Float+Ext.swift in Sources */,
 				FD0CD434215A213A00FD12D5 /* UIImageView+Ext.swift in Sources */,
 				FD0CD3FA215A211000FD12D5 /* ViewController.swift in Sources */,
 				FD0CD428215A213A00FD12D5 /* NSAttributedString+Ext.swift in Sources */,
 				FD0CD431215A213A00FD12D5 /* UIColor+Ext.swift in Sources */,
 				FD0CD430215A213A00FD12D5 /* UIButton+Ext.swift in Sources */,
+				FD1F52AA215B704F00967448 /* SAuthenUtility.swift in Sources */,
 				FD0CD42D215A213A00FD12D5 /* String+Localize.swift in Sources */,
 				FD0CD43B215A213A00FD12D5 /* UIView+LayoutExt.swift in Sources */,
 				FD0CD435215A213A00FD12D5 /* UILabel+LayoutExt.swift in Sources */,
@@ -234,6 +253,7 @@
 				FD0CD42F215A213A00FD12D5 /* UIApplication+Ext.swift in Sources */,
 				FD0CD425215A213A00FD12D5 /* Date+Ext.swift in Sources */,
 				FD0CD436215A213A00FD12D5 /* UIStoryboard+Ext.swift in Sources */,
+				FD1F52A9215B704F00967448 /* KeychainPasswordItem.swift in Sources */,
 				FD0CD42A215A213A00FD12D5 /* NSObject+Ext.swift in Sources */,
 				FD0CD42C215A213A00FD12D5 /* String+Ext.swift in Sources */,
 				FD0CD43A215A213A00FD12D5 /* UIView+FontExt.swift in Sources */,
