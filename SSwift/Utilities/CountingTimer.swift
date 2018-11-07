@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RepeatTask: BaseObject {
+class RepeatTask: NSObject {
     
     var timer: Timer!
     var timeInterval = 1
