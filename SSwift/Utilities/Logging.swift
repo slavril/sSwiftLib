@@ -1,6 +1,6 @@
 //
 //  Logging.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 9/19/18.
 //  Copyright © 2018 sondang. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-private var logable = Config.ENABLED_LOG
+private var logable = true
 
 func logRequest(_ log: String?) {
     logPrint("=============")
@@ -50,7 +50,7 @@ func logPrint(_ log: String?) {
     }
 }
 
-func logAPNSNotification(notification: FinstroNotificationObject) {
+func logAPNSNotification(notification: SNotificationObject) {
     logPrint(" ")
     logPrint(" ----- APNS Notification-----------------------------------------------")
     logPrint("|MessageID: " + notification.messageId)

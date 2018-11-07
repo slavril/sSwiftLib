@@ -1,6 +1,6 @@
 //
 //  UIView.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 5/4/18.
 //  Copyright © 2018 sondang. All rights reserved.
@@ -53,7 +53,7 @@ extension UIView {
     }
     
     func viewCornerAndShadow() {
-        self.drawCornerView()
+        self.drawCornerView(radius: Constant.cornerRadius)
         self.dropDarkShadow()
     }
     

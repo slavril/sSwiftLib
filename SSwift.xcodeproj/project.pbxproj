@@ -42,6 +42,11 @@
 		FD79B12C21928ED200AE6DA4 /* SView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B12921928ED200AE6DA4 /* SView.swift */; };
 		FD79B12D21928ED200AE6DA4 /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B12A21928ED200AE6DA4 /* SViewController.swift */; };
 		FD79B12F21928FE300AE6DA4 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B12E21928FE300AE6DA4 /* Logging.swift */; };
+		FD79B1322192904100AE6DA4 /* main_useless.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B1302192904100AE6DA4 /* main_useless.swift */; };
+		FD79B1332192904100AE6DA4 /* App_UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B1312192904100AE6DA4 /* App_UIApplication.swift */; };
+		FD79B1352192911300AE6DA4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B1342192911300AE6DA4 /* Constant.swift */; };
+		FD79B1372192930F00AE6DA4 /* SObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B1362192930F00AE6DA4 /* SObject.swift */; };
+		FD79B1392192932B00AE6DA4 /* SNotificationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B1382192932B00AE6DA4 /* SNotificationObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +87,11 @@
 		FD79B12921928ED200AE6DA4 /* SView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SView.swift; sourceTree = "<group>"; };
 		FD79B12A21928ED200AE6DA4 /* SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
 		FD79B12E21928FE300AE6DA4 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		FD79B1302192904100AE6DA4 /* main_useless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main_useless.swift; sourceTree = "<group>"; };
+		FD79B1312192904100AE6DA4 /* App_UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App_UIApplication.swift; sourceTree = "<group>"; };
+		FD79B1342192911300AE6DA4 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FD79B1362192930F00AE6DA4 /* SObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SObject.swift; sourceTree = "<group>"; };
+		FD79B1382192932B00AE6DA4 /* SNotificationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNotificationObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +174,7 @@
 				FD1F52A5215B704E00967448 /* CountingTimer.swift */,
 				FD1F52A6215B704E00967448 /* KeychainPasswordItem.swift */,
 				FD1F52A7215B704E00967448 /* SAuthenUtility.swift */,
+				FD79B1382192932B00AE6DA4 /* SNotificationObject.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -171,9 +182,13 @@
 		FD79B12721928ED200AE6DA4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FD79B1342192911300AE6DA4 /* Constant.swift */,
+				FD79B1312192904100AE6DA4 /* App_UIApplication.swift */,
+				FD79B1302192904100AE6DA4 /* main_useless.swift */,
 				FD79B12821928ED200AE6DA4 /* STextField.swift */,
 				FD79B12921928ED200AE6DA4 /* SView.swift */,
 				FD79B12A21928ED200AE6DA4 /* SViewController.swift */,
+				FD79B1362192930F00AE6DA4 /* SObject.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -251,10 +266,12 @@
 			files = (
 				FD0CD424215A213A00FD12D5 /* Data+Ext.swift in Sources */,
 				FD0CD438215A213A00FD12D5 /* UITabbar+Ext.swift in Sources */,
+				FD79B1332192904100AE6DA4 /* App_UIApplication.swift in Sources */,
 				FD0CD43D215A213A00FD12D5 /* URL+Ext.swift in Sources */,
 				FD0CD432215A213A00FD12D5 /* UIImage+Ext.swift in Sources */,
 				FD1F52A8215B704F00967448 /* CountingTimer.swift in Sources */,
 				FD0CD427215A213A00FD12D5 /* Float+Ext.swift in Sources */,
+				FD79B1352192911300AE6DA4 /* Constant.swift in Sources */,
 				FD0CD434215A213A00FD12D5 /* UIImageView+Ext.swift in Sources */,
 				FD0CD3FA215A211000FD12D5 /* ViewController.swift in Sources */,
 				FD0CD428215A213A00FD12D5 /* NSAttributedString+Ext.swift in Sources */,
@@ -272,12 +289,15 @@
 				FD0CD426215A213A00FD12D5 /* Dictionary+Ext.swift in Sources */,
 				FD0CD429215A213A00FD12D5 /* NSNotificationCenter+Ext.swift in Sources */,
 				FD0CD43C215A213A00FD12D5 /* UIView+Spring.swift in Sources */,
+				FD79B1322192904100AE6DA4 /* main_useless.swift in Sources */,
+				FD79B1372192930F00AE6DA4 /* SObject.swift in Sources */,
 				FD0CD42F215A213A00FD12D5 /* UIApplication+Ext.swift in Sources */,
 				FD79B12D21928ED200AE6DA4 /* SViewController.swift in Sources */,
 				FD0CD425215A213A00FD12D5 /* Date+Ext.swift in Sources */,
 				FD79B12B21928ED200AE6DA4 /* STextField.swift in Sources */,
 				FD0CD436215A213A00FD12D5 /* UIStoryboard+Ext.swift in Sources */,
 				FD1F52A9215B704F00967448 /* KeychainPasswordItem.swift in Sources */,
+				FD79B1392192932B00AE6DA4 /* SNotificationObject.swift in Sources */,
 				FD0CD42A215A213A00FD12D5 /* NSObject+Ext.swift in Sources */,
 				FD0CD42C215A213A00FD12D5 /* String+Ext.swift in Sources */,
 				FD0CD43A215A213A00FD12D5 /* UIView+FontExt.swift in Sources */,

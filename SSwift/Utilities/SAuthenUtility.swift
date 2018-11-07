@@ -1,6 +1,6 @@
 //
 //  SAuthenUtility.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 9/26/18.
 //  Copyright © 2018 sondang. All rights reserved.
@@ -44,7 +44,7 @@ class SKeyChainUtility {
 
 private struct KeychainConfiguration {
     
-    static let serviceName = "FinstroPayServiceName"
+    static let serviceName = "SlavrilServiceName"
     
     /*
      Specifying an access group to use with `KeychainPasswordItem` instances

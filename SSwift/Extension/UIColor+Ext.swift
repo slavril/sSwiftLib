@@ -1,6 +1,6 @@
 //
 //  UIColor+Ext.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 5/3/18.
 //  Copyright © 2018 sondang. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  STextField.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 10/3/18.
 //  Copyright © 2018 sondang. All rights reserved.
@@ -264,7 +264,7 @@ class STextField: SView {
         showUnhideButton(false)
         postfixButton.setTitle("unhide", for: .normal)
         postfixButton.setTitleColor(Constant.color.gray, for: .normal)
-        postfixButton.titleLabel?.captionStyle()
+        postfixButton.titleLabel?.setDefaultFont(12)
         postfixButton.addTargetClosure { [weak self] (button) in
             guard let strongSelf = self else {
                 return

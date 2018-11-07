@@ -1,6 +1,6 @@
 //
 //  CountingTimer.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 6/8/18.
 //  Copyright © 2018 sondang. All rights reserved.
@@ -17,7 +17,6 @@ class RepeatTask: NSObject {
     
     // repeat infinite
     init(withDelay timeInterval: Int?, completeblock: (() -> Void)?) {
-        super.init()
         
         if completeblock != nil {
             self.complete = completeblock!

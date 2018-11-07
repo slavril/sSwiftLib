@@ -1,6 +1,6 @@
 //
 //  String+Ext.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 5/4/18.
 //  Copyright © 2018 sondang. All rights reserved.
@@ -178,11 +178,11 @@ extension String {
             if let jsonArray = try JSONSerialization.jsonObject(with: data, options : .allowFragments) as? [String:Any] {
                 return jsonArray
             } else {
-                sysPrint("bad json")
+                logPrint("bad json")
                 return nil
             }
         } catch let error as NSError {
-            sysPrint(error.description)
+            logPrint(error.description)
             return nil
         }
     }

@@ -1,6 +1,6 @@
 //
 //  SViewController.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 10/3/18.
 //  Copyright © 2018 sondang. All rights reserved.
@@ -102,16 +102,7 @@ class SViewController: UIViewController {
     
     deinit {
         NotificationCenter.removeObserver(self)
-        sysPrint("deinit base view controller")
-    }
-    
-    final func shouldShowErrorIfNeed(_ response: ResponseObject) -> Bool {
-        if !response.isSuccess {
-            showAlert(title: "Error", message: response.errorMessage)
-            return true
-        }
-        
-        return false
+        logPrint("deinit base view controller")
     }
     
     // MARK: - Resign keyboard
@@ -166,7 +157,7 @@ class SViewController: UIViewController {
         button.frame = CGRect(x: 0, y: 0, width: 84, height: 42)
         button.contentHorizontalAlignment = .right
         button.setTitle("button", for: .normal)
-        button.setTitleColor(Constant.color.main, for: .normal)
+        button.setTitleColor(UIColor.brown, for: .normal)
         return button
     }
     

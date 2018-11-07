@@ -1,6 +1,6 @@
 //
 //  UIApplication+Ext.swift
-//  FinstroPay
+
 //
 //  Created by sondang on 6/15/18.
 //  Copyright © 2018 sondang. All rights reserved.
