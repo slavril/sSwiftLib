@@ -23,7 +23,7 @@ extension UIView {
     }
     
     func gradient(colors: [CGColor], start: CGPoint = CGPoint(x: 0, y: 0), end: CGPoint = CGPoint(x: 1, y: 0), locations: [NSNumber] = [0, 1]) {
-        layoutIfNeeded()
+        //layoutIfNeeded()
         let layer = UIView(frame: bounds)
         layer.layer.cornerRadius = 5
         

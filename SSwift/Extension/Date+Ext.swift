@@ -102,7 +102,7 @@ extension Date {
     }
     
     func toStringShortFormat() -> String {
-        return self.toString(format: "EE ") + self.toString(format: "dd") + self.daySuffix() + self.toString(format: " MMM")
+        return self.toString(format: "EE, ") + self.toString(format: "dd") + self.daySuffix() + self.toString(format: " MMM")
     }
     
     static func timestampOfCurrent() -> String {

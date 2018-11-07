@@ -140,6 +140,11 @@ extension String {
     }
     
     func formatNumberWith(matrix: [Int]) -> String {
+        let m = matrix.reduce(0, +)
+        if self.count > m {
+            return self
+        }
+        
         var stringFormated: String = ""
         
         var index = 0

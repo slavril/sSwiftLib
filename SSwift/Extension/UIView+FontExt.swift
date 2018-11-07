@@ -66,6 +66,10 @@ extension UIView {
         return UIFont(name: openSansSemiBold, size: size)!
     }
     
+    static func regularFont(size: CGFloat) -> UIFont {
+        return UIFont(name: openSansRegular, size: size)!
+    }
+    
     static func boldFont(size: CGFloat) -> UIFont {
         return UIFont(name: openSansBold, size: size)!
     }

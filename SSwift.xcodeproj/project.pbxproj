@@ -38,6 +38,9 @@
 		FD1F52A8215B704F00967448 /* CountingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1F52A5215B704E00967448 /* CountingTimer.swift */; };
 		FD1F52A9215B704F00967448 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1F52A6215B704E00967448 /* KeychainPasswordItem.swift */; };
 		FD1F52AA215B704F00967448 /* SAuthenUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1F52A7215B704E00967448 /* SAuthenUtility.swift */; };
+		FD79B12B21928ED200AE6DA4 /* STextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B12821928ED200AE6DA4 /* STextField.swift */; };
+		FD79B12C21928ED200AE6DA4 /* SView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B12921928ED200AE6DA4 /* SView.swift */; };
+		FD79B12D21928ED200AE6DA4 /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79B12A21928ED200AE6DA4 /* SViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +77,9 @@
 		FD1F52A5215B704E00967448 /* CountingTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingTimer.swift; sourceTree = "<group>"; };
 		FD1F52A6215B704E00967448 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 		FD1F52A7215B704E00967448 /* SAuthenUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAuthenUtility.swift; sourceTree = "<group>"; };
+		FD79B12821928ED200AE6DA4 /* STextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STextField.swift; sourceTree = "<group>"; };
+		FD79B12921928ED200AE6DA4 /* SView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SView.swift; sourceTree = "<group>"; };
+		FD79B12A21928ED200AE6DA4 /* SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 				FD0CD3FE215A211900FD12D5 /* Assets.xcassets */,
 				FD0CD400215A211900FD12D5 /* LaunchScreen.storyboard */,
 				FD0CD403215A211900FD12D5 /* Info.plist */,
+				FD79B12721928ED200AE6DA4 /* Classes */,
 				FD1F52A4215B704E00967448 /* Utilities */,
 				FD0CD409215A213A00FD12D5 /* Extension */,
 			);
@@ -156,6 +163,16 @@
 				FD1F52A7215B704E00967448 /* SAuthenUtility.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FD79B12721928ED200AE6DA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD79B12821928ED200AE6DA4 /* STextField.swift */,
+				FD79B12921928ED200AE6DA4 /* SView.swift */,
+				FD79B12A21928ED200AE6DA4 /* SViewController.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,11 +264,14 @@
 				FD0CD42E215A213A00FD12D5 /* Timer+Ext.swift in Sources */,
 				FD0CD3F8215A211000FD12D5 /* AppDelegate.swift in Sources */,
 				FD0CD439215A213A00FD12D5 /* UIView+Effect.swift in Sources */,
+				FD79B12C21928ED200AE6DA4 /* SView.swift in Sources */,
 				FD0CD426215A213A00FD12D5 /* Dictionary+Ext.swift in Sources */,
 				FD0CD429215A213A00FD12D5 /* NSNotificationCenter+Ext.swift in Sources */,
 				FD0CD43C215A213A00FD12D5 /* UIView+Spring.swift in Sources */,
 				FD0CD42F215A213A00FD12D5 /* UIApplication+Ext.swift in Sources */,
+				FD79B12D21928ED200AE6DA4 /* SViewController.swift in Sources */,
 				FD0CD425215A213A00FD12D5 /* Date+Ext.swift in Sources */,
+				FD79B12B21928ED200AE6DA4 /* STextField.swift in Sources */,
 				FD0CD436215A213A00FD12D5 /* UIStoryboard+Ext.swift in Sources */,
 				FD1F52A9215B704F00967448 /* KeychainPasswordItem.swift in Sources */,
 				FD0CD42A215A213A00FD12D5 /* NSObject+Ext.swift in Sources */,

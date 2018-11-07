@@ -26,4 +26,13 @@ extension Float {
         return String(format: "%.2f", self)
     }
     
+    func round(UpNumberAfterDot number: Int) -> Float {
+        var rountUpNumberAfterDot: Float = 1
+        for _ in 1...number {
+            rountUpNumberAfterDot = rountUpNumberAfterDot*10
+        }
+        
+        return ceil(self * rountUpNumberAfterDot)/rountUpNumberAfterDot
+    }
+    
 }
