@@ -19,17 +19,25 @@ let VarelaRoundRegular: String = "VarelaRound-Regular"
 extension UIView {
     
     func setFont(_ font: String, _ size: CGFloat) {
+        guard let customFont = UIFont(name: font, size: size) else {
+            fatalError("""
+            Failed to load the -\(font)-.
+                Make sure the font file is included in the project and the font name is spelled correctly.
+        """
+            )
+        }
+        
         if self is UILabel {
             let label = self as! UILabel
-            label.font = UIFont(name: font, size: size)!
+            label.font = customFont
         }
         else if self is UIButton {
             let button = self as! UIButton
-            button.titleLabel!.font = UIFont(name: font, size: size)!
+            button.titleLabel!.font = customFont
         }
         else if self is UITextField {
             let textfield = self as! UITextField
-            textfield.font = UIFont(name: font, size: size)!
+            textfield.font = customFont
         }
     }
     
