@@ -10,7 +10,7 @@ import UIKit
 
 extension UIStoryboard {
     
-    static func storyboardFromName(name: String) -> UIStoryboard {
+    static func storyboardFromName(_ name: String) -> UIStoryboard {
         return  UIStoryboard(name: name, bundle: nil)
     }
     
