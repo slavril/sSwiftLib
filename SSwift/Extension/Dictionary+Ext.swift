@@ -43,21 +43,29 @@ extension Dictionary {
     func float(_ key: String) -> Float {
         var dict = self as! [String:Any]
         
-        guard let db = dict[key] as? NSNumber else {
-            return 0
+        if let value = dict[key] as? Float {
+            return value
         }
         
-        return db.floatValue
+        if let value = Float(dict[key] as? String ?? "0") {
+            return value
+        }
+        
+        return 0
     }
     
     func int(_ key: String) -> Int {
         var dict = self as! [String:Any]
         
-        guard let db = dict[key] as? NSNumber else {
-            return 0
+        if let value = dict[key] as? Int {
+            return value
         }
         
-        return db.intValue
+        if let value = Int(dict[key] as? String ?? "0") {
+            return value
+        }
+        
+        return 0
     }
     
     func dictionary(_ key: String) -> [String:Any]? {
@@ -68,6 +76,29 @@ extension Dictionary {
         }
         
         return rDict
+    }
+    
+    static func test() {
+        if ["key": 10].int("key") == 10 && ["key": "10"].int("key") == 10 {
+            print("Int: Success [10]")
+        }
+        else {
+            print("Int: Fail [10]")
+        }
+        
+        if ["key": 10.5].float("key") == 10.5 && ["key": "10.5"].float("key") == 10.5 {
+            print("Float: Success [10.5]")
+        }
+        else {
+            print("Float: Fail [10.5]")
+        }
+        
+        if ["key": true].bool("key") == true {
+            print("Float: Success [true]")
+        }
+        else {
+            print("Float: Fail [true]")
+        }
     }
     
 }
