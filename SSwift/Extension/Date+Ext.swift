@@ -94,10 +94,10 @@ extension Date {
         let calendar = Calendar(identifier: .gregorian)
         let dayOfMonth = calendar.component(.day, from: self)
         switch dayOfMonth {
-            case 1, 21, 31: return "st"
-            case 2, 22: return "nd"
-            case 3, 23: return "rd"
-            default: return "th"
+        case 1, 21, 31: return "st"
+        case 2, 22: return "nd"
+        case 3, 23: return "rd"
+        default: return "th"
         }
     }
     
@@ -106,8 +106,7 @@ extension Date {
     }
     
     static func timestampOfCurrent() -> String {
-        let calendar = Date.curentCalendar()
-        let datetime = calendar.startOfDay(for: Date())
+        let datetime = Date()
         
         let year = datetime.toString(format: "YYYY")
         let month = datetime.toString(format: "MM")
